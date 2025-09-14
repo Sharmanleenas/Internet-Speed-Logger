@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Speed Logger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Internet Speed Logger</h1>
+        <button id="testBtn">Test Speed</button>
+        <p id="status">Click "Test Speed" to begin</p>
+    <h2> Logs</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Speed (Mbps)</th>
+                <th>Time</th>
+            </tr>
+
+        </thead>
+        <tbody id="logTable"></tbody>
+    </table>
+    <button id="clearBtn" class="clear">Clear Logs</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
